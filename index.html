@@ -2,18 +2,319 @@
 <html>
 
 <head>
-<style>
-</style>
+
 </head>
 
-<body style = "background-color: #809A80;">
-	<div style = "background-color: #809a80; width:100px; height: 500;" > 
-		<img src = "ho_green_mast1">
-	</div>
+<body style = "background-color: #809A80; margin:0px">
 
-	<a href = "http://chololazaro.github.io/CSCE444-Interactive-Information/MetroScreenShotWebPage.jpg" style = "background-color: white;"> if your name is is stephanie click here. </a>
+	<div id = "HeaderOfWeb"> 
+		<img src = "./MetroPics/ho_green_mast1.gif">
+	</div>
+	
+	<div id = "BoxUnderTheHeader">
+		<div id = "leftColumn">
+			<div id = "whatsOnline">
+				Whats Online?
+			</div>
+			
+			<div id = "UnderWhatsOnline">
+				<ul id = "list1">
+					<li>The Collection</li>
+						<ul id = "CollectionSublist">
+							<li> Explore & Learn </li>
+							<li> Timeline of Art History </li>
+						</ul>
+					<li>The Met Store</li>
+					<li>Membership</li>
+						<ul id = "MembershipSublist">
+							<li> Support the Met </li>
+						</ul>
+					<li>Visitor Information</li>
+						<ul id = "VisInfoSublist"?>
+							<li>Calendar</li>
+							<li>The Cloisters</li>
+							<li>Concerts & Lectures</li>
+							<li>Educational Resources</li>
+							<li>Events & Programs</li>
+							<li>FAQs</li>
+							<li>Special Exhibitions</li>
+							
+						</ul>
+					<li>My Met Museum</li>
+					<li>News From the Met</li>
+					<li>Site Index</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div id = "rightColumn">
+			<div id = "Special_Exh">
+				Special Exhibitions
+			</div>
+			<div id = "actualExh">
+				<div id = "BigHeadImg">
+					<img src = " ./MetroPics/chuck_big.jpg">
+				</div>
+				<div id = "Treasures">
+					<img src = "./MetroPics/tla_big.jpg">
+				</div> 
+				<div id = "HudsonRiver">
+					<img src = "./MetroPics/gifford.jpg">
+				</div>
+				<div id = "Text_Un_Pics">
+					<div id = "bigHeadText">
+						Description 1
+					</div>
+					<div id = "tresText">
+						Description 2
+					</div>
+					<div id = "rvrText">
+						Description 3
+					</div>
+				</div>
+			</div>
+			<div id = "Selected_Highlights">
+				Selected Highlights
+			</div>
+			<div id = "actualSelHigh">
+				<div id = "rowColContainer">
+					<div id = "r1c1">
+						<div id = "r1c1img">
+						</div>
+						<div id = "r1c1txt">
+						</div>
+					</div>
+					<div id = "r1c2">
+						<div id = "r1c2img">
+						</div>
+						<div id = "r1c2txt">
+						</div>
+					</div>
+					<div id = "r1c3">
+						<div id = "r1c3img">
+						</div>
+						<div id = "r1c3txt">
+						</div>
+					</div>
+					<div id = "r2c1">
+						<div id = "r2c1img">
+						</div>
+						<div id = "r2c1txt">
+						</div>
+					</div>
+					<div id = "r2c2">
+						<div id = "r2c2img">
+						</div>
+						<div id = "r2c2txt">
+						</div>
+					</div>
+					<div id = "r2c3">
+						<div id = "r2c3img">
+						</div>
+						<div id = "r2c3txt">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	
+	<a href = "http://chololazaro.github.io/CSCE444-Interactive-Information/MetroScreenShotWebPage.jpg" style = "background-color: white; margin-left:25px;"> Reference Image </a>
 	
 </body>
+
+
+<style>
+
+	#HeaderOfWeb{
+		width:750px;
+	}
+
+	#BoxUnderTheHeader{
+		width:690px;
+		height:500px;
+		padding:0px;
+		margin-top:0px;
+		margin-left:25px;
+		background-color:#809A80;
+	}
+	
+	#leftColumn{
+		display: inline-block;
+		height:500px;
+		font-size : 15px;
+		width:150px;
+		height:490px;
+		background-color:#A6AFA6;
+	}
+	
+	#rightColumn{
+		display: inline-block;
+		color:white;
+		width:530px;
+		height:490px;
+		font-size : 15px;
+		background-color:#A6AFA6;
+	}
+	
+	#whatsOnline{
+		padding-left:5px;
+		padding-bottom:0px;
+		margin-bottom:0px;
+		width:145px;
+		background-color:#6e816e;
+		color:white;
+	}
+	
+	#list1{
+		padding-top:2px;
+		margin-top:2px;
+		list-style-type: none;
+		padding-left:5px;
+		color:white;
+		background-color:#747A74;
+		height:475px;
+	}
+	
+	#CollectionSublist{
+		list-style-type:none;
+		padding-left:10px;
+	
+	}
+	
+	#MembershipSublist{
+		list-style-type:none;
+		padding-left:10px;
+	}
+	
+	#VisInfoSublist{
+		list-style-type:none;
+		padding-left:10px;
+	}
+
+	#Special_Exh{
+		background-color:#6e816e;
+		padding-bottom:0px;
+		margin-bottom:0px;
+		width:530px;
+	}
+	
+	#actualExh{
+		background-color:#747A74;
+		padding-top:2px;
+		margin-top:2px;
+		width:530px;
+		height:300px;
+	}
+	
+	#Selected_Highlights{
+		background-color:#6e816e;
+		padding-top:2px;
+		margin-top:2px;
+		width:530px;
+	}
+	
+	#actualSelHigh{
+		background-color:#747A74;
+		padding-top:2px;
+		margin-top:2px;
+		width:530px;
+		height:150px;
+	}
+	
+	#BigHeadImg{
+		display:inline-block;
+		padding:10px;
+		
+	}
+	
+	#Treasures{
+		display:inline-block;
+		padding:10px;
+	}
+	
+	#HudsonRiver{
+		display:inline-block;
+		padding:10px;
+	}
+	
+	#Text_Un_Pics{
+		margin-left:10px;
+		width:500px;
+		height:75px;
+		background-color:#747A74;
+	}
+	
+	#bigHeadText{
+		display:inline-block;
+		color:white;
+		background-color:#747A74;
+		width:150px;
+		margin-right:20px;
+	}
+	
+	#tresText{
+		display:inline-block;
+		color:white;
+		background-color:#747A74;
+		width:150px;
+		margin-right:20px;
+	}
+	
+	#rvrText{
+		display:inline-block;
+		color:white;
+		background-color:#747A74;
+		width:150px;
+	}
+	
+	#rowColContainer{
+		width:510px;
+		height:147px;
+		background-color:white;
+		margin-left:10px;
+		margin-right:10px;
+		
+	}
+	
+	#r1c1{
+		display:inline-block;
+		background-color:black;
+		width:150px;
+		height:70px;
+	}
+	
+	#r1c2{
+		display:inline-block;
+		background-color:black;
+	}
+	
+	#r1c3{
+		display:inline-block;
+		background-color:black;
+	}
+	
+	#r2c1{
+		display:inline-block;
+		background-color:black;
+	}
+	
+	#r2c2{
+		display:inline-block;
+		background-color:black;
+	}
+	
+	#r2c3{
+		display:inline-block;
+		background-color:black;
+	}
+	
+	
+	
+	
+	
+</style>
 
 
 
