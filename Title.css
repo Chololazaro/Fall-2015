@@ -1,9 +1,17 @@
-#Block{
+#HeaderBlock{
 	
 	background-color:#6e816e;
 	padding-bottom:0px;
 	margin-bottom:0px;	
 	width:100%;
 	height:200px;
+	
+}
+
+#Header_Text{
+	
+	text-align:center;
+	
+	
 	
 }
