@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Lazaro's webpage </title>
+	
+	<link rel="stylesheet" type="text/css" href="Background.css" media="screen" />
+	
+</head>
+
+<body style = "background-color: #000000; margin:0; ">
+
+	<div id = "main">
+				
+		<div id = "top_banner">
+			<img id = "left_banner_pic" src = "./Pictures/left_t_banner.png" style = "vertical-align:bottom">
+			
+			<div id = "head_text">
+				<img id = "titleBar" src = "./Pictures/League_of_Legends.png"> 
+			</div>
+
+			<img id = "right_banner_pic" src = "./Pictures/right_t_banner.png" style = "vertical-align:bottom; text-align: right;">
+			
+		</div>
+
+		<div id = "LinkBar">
+			<ul id = "set_of_links">
+				<li class = "Links">
+					<button type = "button" class = "buttonLinks" id = "ItemBuilding">Item Building</button>
+				</li>
+				<li class = "Links">
+					<button type = "button" class = "buttonLinks" id = "Gameplay">Gameplay</button>
+				</li>
+				<li class = "Links">
+					<button type = "button" class = "buttonLinks" id = "Adv_Techniques">Advanced Champion Techniques</button>
+				</li>
+				<li class = "Links">
+					<button type = "button" class = "buttonLinks" id = "Ranks_Divs">Ranks and Divisons</button>
+				</li>
+				
+			</ul>
+		</div>
+		
+	</div>
+	
+	
+	
+	<script>
+		var x = document.getElementById("right_banner_pic").height;
+		x = x + "px";
+		document.getElementById("top_banner").style.height = x;
+		
+		document.getElementById("ItemBuilding").onclick = function () {
+			location.href = "http://chololazaro.github.io/CSCE444-Interactive-Information/Deliverable4/Item_Building_Iterative_Design";
+		};
+		document.getElementById("Gameplay").onclick = function () {
+			location.href = "http://chololazaro.github.io/CSCE444-Interactive-Information/Deliverable4/Gameplay_Labryinths";
+		};
+		document.getElementById("Adv_Techniques").onclick = function () {
+			location.href = "http://chololazaro.github.io/CSCE444-Interactive-Information/Deliverable4/Adv_Champ_Techniques_Found_Objects";
+		};
+		document.getElementById("Ranks_Divs").onclick = function () {
+			location.href = "http://chololazaro.github.io/CSCE444-Interactive-Information/Deliverable4/Ranks_Div_Layering_Seperation";
+		};
+		
+	
+	
+	
+	
+	</script>
+	
+	
+</body>
+
+</html>
+
+
