@@ -5,11 +5,77 @@ body{
 
 
 
-#inner_blocks{
+#main{
+	
 	background-color : #000000;
-	margin-left:200px;
-	width:500px;
-	height:500px;
+	max-width:75%;
+	margin-left:auto;
+	margin-right:auto;
+	height:100vh;
+	top:0;
+	bottom:0;
+
+}
+
+#top_banner{
+	margin:0;
+	display:inline-block;
+	width:100%;
+	
+}
+
+
+#head_text{
+	display:inline-block;
+	width:1177px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+
+
+}
+
+
+#set_of_links{
+	display:inline-block;
+	vertical-align:bottom;
+	padding:0;
+	margin:0;
+
+}
+
+
+
+#LinkBar{
+	width:100%;
+
+}
+
+.Links{
+	display:inline-block;
+	vertical-align:bottom;
+	text-align:center;
+	width:359px;
+	min-height:100px;
+	margin-left:-1px;
+	margin-right:-1px;
+	border-left:-1px;
+	border-right:-1px;
+	background-color: #282828;
+	color: rgb(196, 19, 23);
+	font-family: "Bodoni MT Black", Times, serif;
+
+
+}
+
+.buttonLinks{
+	background-color:transparent;
+	color:rgb(196, 19, 23);
+	border:none;
+	
+	font-size:30px;
+
+
 
 }
 
