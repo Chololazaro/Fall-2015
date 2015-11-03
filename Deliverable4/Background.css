@@ -55,10 +55,11 @@ body{
 
 #explanation_box{
 	display:inline-block;
-	height:500px;
+	height:auto;
 	width:500px;
 	text-align:center;
 	color:#FFFFFF;
+	font-size:30px;
 	margin:10px;
 	
 	
