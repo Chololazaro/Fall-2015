@@ -55,12 +55,10 @@ body{
 	display:inline-block;
 	vertical-align:bottom;
 	text-align:center;
-	width:359px;
+	width:25%;
 	min-height:100px;
-	margin-left:-1px;
-	margin-right:-1px;
-	border-left:-1px;
-	border-right:-1px;
+	margin-left:-2px;
+	margin-right:-2px;
 	background-color: #282828;
 	color: rgb(196, 19, 23);
 	font-family: "Bodoni MT Black", Times, serif;
