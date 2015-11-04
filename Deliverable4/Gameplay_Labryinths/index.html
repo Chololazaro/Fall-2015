@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Lazaro's webpage </title>
+	
+	<link rel="stylesheet" type="text/css" href="Background.css" media="screen" />
+	
+</head>
+
+<body style = "background-color: #000000; margin:0; ">
+
+	<div id = "main">
+				
+		<div id = "top_banner">
+			<img id = "left_banner_pic" src = "./Pictures/left_t_banner.png" style = "vertical-align:bottom;">
+			
+			<div id = "head_text">
+				<a href = "http://chololazaro.github.io/CSCE444-Interactive-Information/Deliverable4">
+					<img id = "titleBar" src = "./Pictures/League_of_Legends.png"> 
+				</a>
+			</div>
+
+			<img id = "right_banner_pic" src = "./Pictures/right_t_banner.png" style = "vertical-align:bottom; text-align: right;">
+			
+		</div>
+
+		<div id = "LinkBar">
+			<ul id = "set_of_links">
+				<li class = "Links">
+					<button type = "button" class = "buttonLinks" id = "ItemBuilding">Item Building</button>
+				</li>
+				<li class = "Links">
+					<button type = "button" class = "buttonLinks" id = "Gameplay">Gameplay</button>
+				</li>
+				<li class = "Links">
+					<button type = "button" class = "buttonLinks" id = "Adv_Techniques">Advanced Champion Techniques</button>
+				</li>
+				<li class = "Links">
+					<button type = "button" class = "buttonLinks" id = "Ranks_Divs">Ranks and Divisons</button>
+				</li>
+				
+			</ul>
+		</div>
+		
+		<div style ="width:100%; text-align:center; margin-top:50px;">
+			<img src = "./Pictures/Sum_rift.png" width = "30%" height = "30%">
+		</div>
+		
+		<div id = "explanation_box">
+			<p>Here I have the map and gameplay to represent the concept of labyrinths. More specifically, 
+			I was able to relate the map and gameplay to the movie timecode. In this movie we have four 
+			different camera perspectives and each person in those cameras are living their own lives. 
+			The decisions that they make invdividually have the potential to effect someone else in another 
+			camera perspective. Occasionally, individuals will interact with each other and both cameras would
+			show both individuals. In the gameplay of league of legends, each player plays their role in the map,
+			top lane, middle lane, and bottom lane as shown in the map. During the beginning of the game, decisions 
+			that are made in game could have the potential of affecting other players on their team. They could be 
+			affected both emotionally and physically in game. Occasionally, players will interact with each other 
+			in different parts of the map and together could affect each other and other players in game.</p>
+		
+		</div>
+		
+		
+		
+		
+	</div>
+	
+	
+	
+	<script>
+		var x = document.getElementById("right_banner_pic").height;
+		x = x + "px";
+		document.getElementById("top_banner").style.height = x;
+		
+		document.getElementById("ItemBuilding").onclick = function () {
+			location.href = "http://chololazaro.github.io/CSCE444-Interactive-Information/Deliverable4/Item_Building_Iterative_Design";
+		};
+		document.getElementById("Gameplay").onclick = function () {
+			location.href = "http://chololazaro.github.io/CSCE444-Interactive-Information/Deliverable4/Gameplay_Labryinths";
+		};
+		document.getElementById("Adv_Techniques").onclick = function () {
+			location.href = "http://chololazaro.github.io/CSCE444-Interactive-Information/Deliverable4/Adv_Champ_Techniques_Found_Objects";
+		};
+		document.getElementById("Ranks_Divs").onclick = function () {
+			location.href = "http://chololazaro.github.io/CSCE444-Interactive-Information/Deliverable4/Ranks_Div_Layering_Seperation";
+		};
+		
+	
+	
+	
+	
+	</script>
+	
+	
+</body>
+
+</html>
+
+

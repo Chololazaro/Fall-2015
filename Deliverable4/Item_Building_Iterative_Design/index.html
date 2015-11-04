@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Lazaro's webpage </title>
+	
+	<link rel="stylesheet" type="text/css" href="Background.css" media="screen" />
+	
+</head>
+
+<body style = "background-color: #000000; margin:0; ">
+
+	<div id = "main">
+				
+		<div id = "top_banner">
+			<img id = "left_banner_pic" src = "./Pictures/left_t_banner.png" style = "vertical-align:bottom;">
+			
+			<div id = "head_text">
+				<a href = "http://chololazaro.github.io/CSCE444-Interactive-Information/Deliverable4">
+					<img id = "titleBar" src = "./Pictures/League_of_Legends.png"> 
+				</a>
+			</div>
+
+			<img id = "right_banner_pic" src = "./Pictures/right_t_banner.png" style = "vertical-align:bottom; text-align: right;">
+			
+		</div>
+
+		<div id = "LinkBar">
+			<ul id = "set_of_links">
+				<li class = "Links">
+					<button type = "button" class = "buttonLinks" id = "ItemBuilding">Item Building</button>
+				</li>
+				<li class = "Links">
+					<button type = "button" class = "buttonLinks" id = "Gameplay">Gameplay</button>
+				</li>
+				<li class = "Links">
+					<button type = "button" class = "buttonLinks" id = "Adv_Techniques">Advanced Champion Techniques</button>
+				</li>
+				<li class = "Links">
+					<button type = "button" class = "buttonLinks" id = "Ranks_Divs">Ranks and Divisons</button>
+				</li>
+				
+			</ul>
+		</div>
+		
+		<div id = "explanation_box">
+			<p>Here I have Item Building to represent the design methodology of iterative design. 
+			The reason I chose Item Building to represent iterative design is because as you 
+			play the game, you build up items in iterations. You start with the most basic items 
+			and as you play the game you begin to build on top of those items, sometimes selling 
+			some items, in order for you to get stronger and better ones. Eventually, you will have
+			the final items that will bring out the full potential of your champion. Below are a 
+			set of pictures that demonstrate the flow of a build for a particular item. The position 
+			in the pictures are not special.</p>
+		</div>
+		
+		<div class = "builds">
+			<img src = "./Pictures/Triforce_total_build.png" width = "30%" height = "30%">
+		</div>
+		
+		<div class = "builds">
+			<div style = "width:50%;display:inline-block; text-align:center; margin:-2px;"><img src = "./Pictures/Warmog_total_build.png" width = "50%" height = "50%"></div>
+			<div style = "width:50%;display:inline-block; text-align:center; margin:-2px;"><img src = "./Pictures/Phantom_Dancers_total_build.png" width = "50%" height = "50%"></div>
+		</div>
+		
+		<div class = "builds">
+			<div style = "width:33%; display:inline-block; text-align:center; margin:-2px;"><img src = "./Pictures/Archangel_Staff_total_build.png" width = "80%" height = "80%"></div>
+			<div style = "width:33%; display:inline-block; text-align:center; margin:-2px;"><img src = "./Pictures/Righteous_Glory_total_build.png" width = "80%" height = "80%"></div>
+			<div style = "width:33%; display:inline-block; text-align:center; margin:-2px;"><img src = "./Pictures/Momentum_total_build.png" width = "80%" height = "80%"></div>
+		</div>
+		
+	</div>
+	
+	
+	
+	<script>
+		var x = document.getElementById("right_banner_pic").height;
+		x = x + "px";
+		document.getElementById("top_banner").style.height = x;
+		
+		document.getElementById("ItemBuilding").onclick = function () {
+			location.href = "http://chololazaro.github.io/CSCE444-Interactive-Information/Deliverable4/Item_Building_Iterative_Design";
+		};
+		document.getElementById("Gameplay").onclick = function () {
+			location.href = "http://chololazaro.github.io/CSCE444-Interactive-Information/Deliverable4/Gameplay_Labryinths";
+		};
+		document.getElementById("Adv_Techniques").onclick = function () {
+			location.href = "http://chololazaro.github.io/CSCE444-Interactive-Information/Deliverable4/Adv_Champ_Techniques_Found_Objects";
+		};
+		document.getElementById("Ranks_Divs").onclick = function () {
+			location.href = "http://chololazaro.github.io/CSCE444-Interactive-Information/Deliverable4/Ranks_Div_Layering_Seperation";
+		};
+		
+	
+	
+	
+	
+	</script>
+	
+	
+</body>
+
+</html>
+
+
