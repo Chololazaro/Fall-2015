@@ -11,7 +11,7 @@ body{
 	max-width:75%;
 	margin-left:auto;
 	margin-right:auto;
-	height:100vh;
+	height:auto;
 	top:0;
 	bottom:0;
 
@@ -55,14 +55,24 @@ body{
 
 #explanation_box{
 	display:inline-block;
-	height:500px;
-	width:500px;
+	padding:5px;
+	margin:10px;
+	height:auto;
 	text-align:center;
 	color:#FFFFFF;
-	margin:10px;
+	font-size:20px;
 	
 	
 	
+}
+
+.builds{
+	display:inline-block;
+	margin-top:25px;
+	margin-bottom:25px;
+	width:100%;
+	text-align:center;
+
 }
 
 .Links{
