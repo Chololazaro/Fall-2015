@@ -55,12 +55,12 @@ body{
 
 #explanation_box{
 	display:inline-block;
-	height:500px;
-	width:500px;
+	padding:5px;
+	margin:10px;
+	height:auto;
 	text-align:center;
 	color:#FFFFFF;
-	margin:10px;
-	
+	font-size:20px;
 	
 	
 }
